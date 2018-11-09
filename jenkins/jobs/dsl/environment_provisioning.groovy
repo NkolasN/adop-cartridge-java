@@ -1,7 +1,7 @@
 import pluggable.scm.*;
 import adop.cartridge.properties.*;
 
-SCMProvider scmProvider = SCMProvider.getScmProvider("${SCM_PROVIDER_ID}", binding.variables)
+SCMProvider scmProvider = SCMProvider.getScmProvider("gitlab", binding.variables)
 CartridgeProperties cartridgeProperties = new CartridgeProperties("${CARTRIDGE_CUSTOM_PROPERTIES}");
 
 // Folders
